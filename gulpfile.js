@@ -10,14 +10,14 @@ var mocha = require('gulp-mocha');
 
 function lint() {
   return gulp.src('src/**/*.js')
-    .pipe(plumber())
-    .pipe(eslint())
-    .pipe(eslint.format());
+  .pipe(plumber())
+  .pipe(eslint())
+  .pipe(eslint.format());
 }
 
 function test() {
   return gulp.src('src/__tests__/**/*.jsx')
-    .pipe(mocha());
+  .pipe(mocha());
 }
 
 gulp.task('lint', lint);
