@@ -12,7 +12,7 @@
     "preserve_newlines": true,
     "unformatted": ["a", "span", "img", "code", "pre", "sub", "sup", "em", "strong", "b", "i", "u", "strike", "big",
       "small", "pre", "h1", "h2", "h3", "h4", "h5", "h6"],
-    "wrap_line_length": 124
+    "wrap_line_length": 120
   },
   "css": {
     "allowed_file_extensions": ["css", "scss", "sass", "less"],
@@ -42,6 +42,6 @@
     "space_in_empty_paren": false,
     "space_in_paren": false,
     "unescape_strings": false,
-    "wrap_line_length": 124
+    "wrap_line_length": 120
   }
 }
