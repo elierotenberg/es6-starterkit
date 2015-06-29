@@ -3,6 +3,13 @@
   "version": "0.0.0",
   "description": "",
   "homepage": "https://github.com/elierotenberg/es6-starterkit",
+  "keywords": [
+    "editorconfig",
+    "eslintconfig",
+    "gitignore",
+    "gulpfile",
+    "jsbeautify"
+  ],
   "bugs": "https://github.com/elierotenberg/es6-starterkit/issues",
   "license": "MIT",
   "author": "Elie Rotenberg <elie@rotenberg.io>",
@@ -15,11 +22,11 @@
     "test": "gulp test"
   },
   "devDependencies": {
-    "babel": "^5.6.5",
-    "babel-eslint": "^3.1.18",
-    "babel-runtime": "^5.6.5",
-    "eslint": "^0.23.0",
-    "eslint-plugin-react": "^2.5.2",
+    "babel": "^5.6.14",
+    "babel-eslint": "^3.1.19",
+    "babel-runtime": "^5.6.15",
+    "eslint": "^0.24.0",
+    "eslint-plugin-react": "^2.6.2",
     "gulp": "^3.9.0",
     "gulp-eslint": "^0.14.0",
     "gulp-mocha": "^2.1.2",

@@ -59,6 +59,7 @@
     "no-regex-spaces": 1,
     "no-reserved-keys": 0,
     "no-sparse-arrays": 1,
+    "no-unexpected-multiline": 1,
     "no-unreachable": 1,
     "use-isnan": 1,
     "valid-jsdoc": 1,
@@ -142,6 +143,7 @@
     "no-sync": 1,
 
     /* Stylistic Issues */
+    "array-bracket-spacing": [1, "never"],
     "brace-style": [1, "stroustrup", { "allowSingleLine": true }],
     "camelcase": [1, { "properties": "always" }],
     "comma-spacing": [1, { "before": false, "after": true }],
@@ -192,7 +194,9 @@
     "wrap-regex": 1,
 
     /* ECMAScript 6 */
+    "constructor-super": 1,
     "generator-star-spacing": [1, "after"],
+    "no-this-before-super": 1,
     "no-var": 1,
     "object-shorthand": [1, "always"],
     "prefer-const": 1,
