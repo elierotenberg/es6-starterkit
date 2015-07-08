@@ -23,18 +23,19 @@
   },
   "devDependencies": {
     "babel": "^5.6.14",
-    "babel-eslint": "^3.1.19",
+    "babel-eslint": "^3.1.23",
     "babel-runtime": "^5.6.15",
     "eslint": "^0.24.0",
-    "eslint-plugin-react": "^2.6.2",
+    "eslint-plugin-babel": "^1.1.0",
+    "eslint-plugin-react": "^2.6.4",
     "gulp": "^3.9.0",
-    "gulp-eslint": "^0.14.0",
+    "gulp-eslint": "^0.15.0",
     "gulp-mocha": "^2.1.2",
     "gulp-plumber": "^1.0.1"
   },
   "dependencies": {
-    "bluebird": "^2.9.30",
-    "lodash": "^3.9.3",
+    "bluebird": "^2.9.32",
+    "lodash": "^3.10.0",
     "should": "^7.0.1"
   }
 }
