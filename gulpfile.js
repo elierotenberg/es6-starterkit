@@ -1,6 +1,11 @@
 require('babel/register')({
   only: /\.jsx$/,
-  optional: ['runtime'],
+  optional: [
+    'runtime',
+    'es7.classProperties',
+    'es7.decorators',
+    'es7.objectRestSpread',
+  ],
 });
 
 var eslint = require('gulp-eslint');

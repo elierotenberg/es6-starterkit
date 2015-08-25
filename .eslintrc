@@ -210,7 +210,7 @@
     "no-plusplus": 1,
 
     /* Babel */
-    "babel/block-scoped-var": 1,
+    // "babel/block-scoped-var": 1,
     "babel/object-shorthand": [1, "always"],
     // "babel/generator-star": 1, // deprecated
     "babel/generator-star-spacing": [1, "after"],

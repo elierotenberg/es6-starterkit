@@ -1,5 +1,5 @@
 const { describe, it } = global;
 
-describe('consistencty', () =>
+describe('consistency', () =>
   it('should not throw', () => null)
 );
